@@ -1,0 +1,50 @@
+body{
+   margin-left: 50px;
+   margin-right: 50px;
+   background-color: whitesmoke;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.box{
+    background-color: rgb(79, 187, 223);
+    border-radius: 8px;
+    color: white;
+}
+img{
+   height: 80%;
+ margin: 10px;
+   border-radius: 8px;
+
+}
+.box1{
+    margin:10px 0 10px 0;
+    height: 20vh;
+
+}
+.box2{
+    margin:10px 0 10px 0;
+    height: 20vh;
+
+
+}
+.box3{
+    margin:10px 0 10px 0;
+    height: 20vh;
+
+}
+.box4{
+    margin:10px 0 10px 0;
+    height: 20vh;
+
+}
+.box1 img{
+    float: right;
+}
+.box2 img{
+    float:left;
+}
+.box3 img{
+    float: right;
+}
+.box4 img{
+    float:left
+}

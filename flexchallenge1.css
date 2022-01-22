@@ -1,0 +1,71 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 8px;
+}
+.a-1,.a-2,.a-3{
+    display: flex;
+    flex-direction: row;
+    margin-top: 4px;
+}
+
+.vessel1{
+    background-color: rgb(243, 123, 11);
+    border-radius: 4px;
+    margin: 4px;
+    height: 150px;
+    width: 33.33%;
+    color: white;
+}
+.vessel2{
+    background-color: rgb(11, 150, 243);
+    border-radius: 4px;
+    margin-left: 4px;
+    width: 25%;
+    height: 2em;
+    color: white;
+}
+.vessel3{
+background-color: rgb(243, 123, 11);
+border-radius: 4px;
+margin-left: 4px;
+width: 20%;
+color: white;
+height: 2em;
+}
+.v-1-1{
+display: flex;
+flex-direction: column;
+
+}
+.i-1,.i-2,.i-3{
+    display: flex;
+    flex-direction: row;
+    height:33.33%;
+}
+.i{
+    border-radius: 4px;
+    background-color: white;
+    color: rgb(243, 123, 11);
+    width: 33.33%;
+    margin: 4px;
+}
+.i2{
+    border-radius: 4px;
+    background-color: white;
+    color: rgb(243, 123, 11);
+    width: 25%;
+    margin: 4px;
+}
+.i3{
+    border-radius: 4px;
+    background-color: white;
+    color: rgb(243, 123, 11);
+    width: 20%;
+    margin: 4px;
+}
+.c{
+height: 100%;
+margin: 2px;
+}
+

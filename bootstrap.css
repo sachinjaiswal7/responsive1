@@ -1,0 +1,9 @@
+@media(min-width:768px){
+    .news-input{
+        width: 40%;
+    }
+    .btn-enrol{
+        margin-top: 2px;
+        margin-bottom: 2px;
+    }
+}

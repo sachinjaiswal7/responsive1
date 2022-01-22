@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>first web page</title>
+    <link rel="stylesheet" href="formStyle.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <h1 id="main_header">Payment Form</h1>
+        <hr>
+        <h2>Contact</h2>
+        <form>
+            <p>Name: <input type="text" required placeholder="Sachin Jaiswal"></p>
+            <fieldSet>
+                <legend>Gender</legend>
+                <p>Male <input type="radio" name="Gender" id=""> Female <input type="radio" name="Gender" id=""></p>
+            </fieldSet>
+            <p>Address : </p>
+            <textarea name="" id="" cols="100" rows="7"></textarea required>
+<p>Email : <input type="email" name="email" id="" required></p>
+<p>Pincode <input type="number" name="pincode" id="" required></p>
+ <h2>Payment section</h2>
+ <p>CardType 
+     <select name="card_type" id="" required>
+         <option value="">--Select card type --</option>
+         <option value="visa">Visa</option>
+         <option value="mastercard">MasterCard</option>
+         <option value="rupay">Rupay</option>
+     </select>
+ </p>
+ <p>CardNumber <input type="number" name="card_number" required></p>
+ <p>Expiration Date: <input type="date" name="date" required></p>
+ <p>CVV: <input type="password" name="cvv" id="" required></p>
+
+<input type="submit" value="Pay Now">
+
+
+      
+
+ </form>
+</div>
+</body>
+
+</html>

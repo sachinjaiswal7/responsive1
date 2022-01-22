@@ -1,0 +1,38 @@
+html{
+    margin: 0px;
+}
+.container{
+  margin: 0%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.box1{
+    width: 20%;
+    background-color: green;
+    height: 100vh;
+    border-radius: 4px;
+}
+.box2{
+    width: 80%;
+   display: flex;
+   flex-direction: column;
+    height:100vh;
+    flex-wrap: wrap;
+}
+.head,.footer{
+    flex-basis: 25%;
+
+    text-indent: 10px;
+    border-radius: 4px;
+    background-color: lightgreen;
+}
+.body{
+    flex-basis: 50%;
+    text-indent: 10px;
+    border-radius: 4px;
+    background-color: whitesmoke;
+    
+}
+

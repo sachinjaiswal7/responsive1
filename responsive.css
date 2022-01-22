@@ -1,0 +1,35 @@
+.container{
+    display: flex;
+    margin: 10px;
+}
+.div1{
+    width: 25%;
+
+    background-color: green;
+    height: 20vh;
+}
+.div2{
+    width:25%;
+    background-color: aquamarine;
+    height: 20vh;
+
+
+}
+.div3{
+    background-color: yellow;
+    height: 20vh;
+    width: 30%;
+}
+.div4{
+    background-color: blue;
+    height: 20vh;
+      width: 25%;
+}
+@media (max-width:720px){
+   .div3{
+       display: block;
+   }
+   .div4{
+       display: block;
+   }
+}
